@@ -1,0 +1,69 @@
+.student {
+    display: flex;
+    border: 2px solid #999;
+    padding: 20px;
+    
+    margin: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.student_page {
+    display: flex;
+    flex-wrap: wrap;
+}
+.student_pick {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    min-width: 120px;
+}
+.student_pick img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(202, 202, 202);
+}
+.student_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.average_student {
+    display: none;
+}
+.show_average_student {
+    display: block;
+}
+.btn_info {
+    font-size: 3em;
+    color: #999;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.input_name {
+    width: 100%;
+    padding: 7px;
+    border-style: none;
+    border-bottom: 1px solid #999;
+    margin: 5px;
+}
+.input_tag {
+    border-style: none;
+    padding: 4px;
+    border-bottom: 1px solid #111;
+    margin-top: 4px;
+}
+.container_tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div_tag {
+    margin: 2px;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(223, 222, 222);
+    color: #222;
+}

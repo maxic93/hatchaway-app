@@ -1,0 +1,5 @@
+.container_students {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
